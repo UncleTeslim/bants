@@ -19,7 +19,7 @@ app.get("/epl/:club", function (req, res) {
 });
 
 app.get("*", function (req, res) {
-    res.send("Sorry, only epl matters:} !!!");
+    res.send("Sorry, your club  probaby doesn't count !!!");
 });
 
 app.listen(3000, function(){
