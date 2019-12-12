@@ -2,7 +2,7 @@ var express = require("express");
 var app = express();
 
 app.get("/", function(req, res){
-    res.send("Hey, welcome to my first express exercise!!!");
+    res.send("Hey, welcome to my first express exercise!!! Hope you enjoy the jabs :) ");
 });
 
 app.get("/epl/:club", function (req, res) {
