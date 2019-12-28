@@ -7,7 +7,7 @@ app.get("/", function(req, res){
 
 app.get("/epl/:club", function (req, res) {
     var slangs = {
-        arsenal: "Good ebening",
+        arsenal: "Small team",
         chelsea: "The Pride Of London",
         spurs: "Perennial Bottlers",
         manu: "Ole At The Wheel",
